@@ -176,6 +176,18 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Controller\BaseFunction.cs" />
+    <Compile Include="Controller\FilesController.cs" />
+    <Compile Include="Controller\SoftTestTaskController.cs" />
+    <Compile Include="Controller\TestController.cs" />
+    <Compile Include="Controller\TestSurroundingController.cs" />
+    <Compile Include="Controller\UsersController.cs" />
+    <Compile Include="DAC\DACBase.cs" />
+    <Compile Include="DAC\FilesDAC.cs" />
+    <Compile Include="DAC\SoftTestTaskDAC.cs" />
+    <Compile Include="DAC\TestDAC.cs" />
+    <Compile Include="DAC\TestSurroundingDAC.cs" />
+    <Compile Include="DAC\UsersDAC.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -186,6 +198,11 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Model\FilesInfo.cs" />
+    <Compile Include="Model\SoftTestTaskInfo.cs" />
+    <Compile Include="Model\TestInfo.cs" />
+    <Compile Include="Model\TestSurroundingInfo.cs" />
+    <Compile Include="Model\UsersInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -196,12 +213,14 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
