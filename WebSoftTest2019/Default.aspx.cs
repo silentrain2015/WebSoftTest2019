@@ -11,7 +11,7 @@ namespace WebSoftTest2019
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            TestInfo testInfo = new TestInfo();
         }
     }
 }
